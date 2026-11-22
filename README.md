@@ -2,17 +2,6 @@
 
 Práctica de Desarrollo Web en Entorno Cliente (sesiones 8–13). Es una aplicación web que permite consultar un catálogo, gestionar un carrito, confirmar pedidos con un formulario validado y consultar el historial. Funciona solo en el navegador, con HTML, CSS y JavaScript y sin frameworks. Los datos se guardan en memoria y se pierden al recargar.
 
-## Cómo ejecutarla
-
-Tiene que abrirse por HTTP, no con `file://`, porque usa módulos ES:
-
-```bash
-cd gestor-pedidos
-python -m http.server 8000
-```
-
-Después se abre `http://localhost:8000`. También sirve la extensión Live Server de VS Code.
-
 ## Estructura
 
 ```
