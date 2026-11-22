@@ -1,0 +1,27 @@
+body { font-family: system-ui, sans-serif; max-width: 960px; margin: 0 auto; padding: 1rem; }
+section { margin-bottom: 2rem; }
+.filtros { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin-bottom: 1rem; }
+.catalogo { list-style: none; padding: 0; display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+.tarjeta { border: 1px solid #ccc; border-radius: 6px; padding: 0.75rem; }
+.tarjeta h3 { margin: 0 0 0.5rem; font-size: 1.05rem; }
+.tarjeta p { margin: 0.25rem 0; }
+.agotado { background: #f3f3f3; color: #666; }
+.aviso { display: block; min-height: 1.2em; color: #9b1c1c; }
+.aviso.ok { color: #1d6b2f; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: 0.4rem; text-align: left; }
+.resumen { display: grid; grid-template-columns: max-content max-content; gap: 0.25rem 1rem; }
+.resumen dd { margin: 0; }
+form p { margin: 0.6rem 0; }
+form label { display: block; }
+fieldset label { display: inline-block; margin-right: 1rem; }
+form input:not([type="radio"]):not([type="checkbox"]), form textarea {
+  width: 100%; max-width: 420px; box-sizing: border-box;
+}
+.error { display: block; color: #9b1c1c; }
+[aria-invalid="true"] { border: 2px solid #9b1c1c; }
+.historial { list-style: none; padding: 0; }
+.historial li { border: 1px solid #ccc; border-radius: 6px; padding: 0.5rem; margin-bottom: 0.5rem; }
+.historial summary { cursor: pointer; }
+#json-exportado { display: block; width: 100%; box-sizing: border-box; font-family: monospace; }
