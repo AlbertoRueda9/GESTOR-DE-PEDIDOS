@@ -1,5 +1,5 @@
-
 export const PORCENTAJE_DESCUENTO = 10;
+export const UMBRAL_DESCUENTO = 100;   // subtotal mínimo (€) para aplicar el descuento
 
 
 export function redondear(importe) {
