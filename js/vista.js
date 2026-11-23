@@ -15,10 +15,12 @@ const NOMBRES_ENTREGA = {
   envio: "Envío"
 };
 
+export function formatearImporte(importe) {
   if (!Number.isFinite(importe)) {
     return "0.00 €";
   }
   return importe.toFixed(2) + " €";
+}
 
 
 export function crearTarjetaProducto(producto) {
