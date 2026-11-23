@@ -1,4 +1,6 @@
-export const CATEGORIAS = ["perifericos", "almacenamiento", "oficina"];
+import { Producto } from "./producto.js";
+
+export const CATEGORIAS =["perifericos", "almacenamiento", "oficina"];
 
 export const NOMBRES_CATEGORIA = {
   perifericos: "Periféricos",
